@@ -522,25 +522,43 @@ RESPONSIVE
 
 
 /* Email JS */
-.contact form{
-    max-width:700px;
-    margin:auto;
+/* Contact Section */
+#contact {
+    padding: 80px 20px;
 }
 
-.input-group{
-    margin-bottom:20px;
+#contact form {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.contact input,
-.contact textarea{
-    width:100%;
-    padding:14px;
-    border-radius:8px;
-    border:1px solid #ccc;
-    font-size:16px;
+#contact .input-group {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-#status{
-    margin-top:15px;
-    font-weight:bold;
-} 
+#contact input,
+#contact textarea {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+#contact button {
+    width: 100%;
+}
+
+#status {
+    margin-top: 15px;
+    font-weight: bold;
+}
